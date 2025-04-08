@@ -28,7 +28,7 @@ const technologies = [
 
 export default function Technologies() {
   return (
-    <div className="mt-25 w-72 h-40 ">
+    <div className="mt-25  px-40 py-30">
       <h2 className="text-white text-lg font-semibold mb-4">Tecnologías</h2>
       <div className="flex  gap-2 mb-20 p-2">
         {technologies.map((tech) => (
