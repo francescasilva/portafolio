@@ -1,7 +1,7 @@
 
 
-import Technologies from "./componentes/Technologies";
-import InicioImagen from "./componentes/InicioImagen";
+import Technologies from "../components/Technologies";
+import InicioImagen from "../components/InicioImagen";
 
 
 
@@ -9,8 +9,8 @@ export default function Home() {
   return (
 
     <>    
-     <InicioImagen></InicioImagen>;
-     <Technologies></Technologies>
+     <InicioImagen/>
+     <Technologies/>
 
           <div>
             <h2 className="text-white text-lg font-semibold mb-2">Experiencia</h2>
@@ -21,7 +21,7 @@ export default function Home() {
 
         
       
-          </>
+    </>
   
    
   );

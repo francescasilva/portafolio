@@ -36,9 +36,7 @@ export default function InicioImagen() {
         </div>
         </div>
         
-        <> 
-        <RedesSociales></RedesSociales>
-        </>
+       
        
     
       </section>
